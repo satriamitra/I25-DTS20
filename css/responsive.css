@@ -1,0 +1,70 @@
+@media screen and (max-width: 1200px) {
+  header {
+    width: 100%;
+  }
+
+  .intro-content {
+    display: inline-block;
+    width: 70%;
+  }
+
+  .hero .hero-content {
+    padding-top: 28%;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* Tambahkan CSS untuk lesson */
+  header {
+    width: 100%;
+  }
+  .skill {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .profile {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .top-wrapper h2 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 670px) {
+  /* Ubah width milik lesson ke 100% */
+  header {
+    width: 100%;
+  }
+  .skill {
+    width: 100%;
+  }
+
+  .profiles {
+    display: inline-block;
+  }
+
+  .profile {
+    width: 100%;
+    max-width: 450px;
+  }
+  .menu {
+    display: none;
+  }
+  header .fa {
+    display: block;
+  }
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h2 {
+    font-size: 24px;
+    line-heading: 36px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+  /* Ubah text-align property milik <footer> */
+}
