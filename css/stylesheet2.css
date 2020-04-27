@@ -43,6 +43,7 @@ h3 {
   display: inline-block;
   text-transform: uppercase;
   opacity: 0.8;
+  margin-bottom: 5px;
 }
 
 .btn:hover,
@@ -93,6 +94,7 @@ h3 {
   border-color: #ff5274;
   background-color: #ff5274;
   color: #fff;
+  margin-bottom: 30px;
 }
 
 .twitter {
@@ -186,27 +188,26 @@ header .fa {
 }
 
 .top-wrapper {
-  padding: 200px 0 150px 0;
+  padding-top: 60px;
+  color: #fff;
+  text-align: center;
+  height: 600px;
   background-image: url("../img/t.jpg");
   background-size: cover;
-  color: white;
-  text-align: center;
 }
 
 .main-container {
   width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-  max-width: 1170px;
+  height: 100%;
 }
 
 .main-container h1 {
+  margin: 0 auto;
   font-size: 60px;
-  padding: 0 100px;
-}
-
-.btn-wrapper {
-  margin: 20px 0;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .extra1 {
@@ -283,7 +284,6 @@ header .fa {
   border: 0.5px solid #c1bec2;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .btn-profile {
   width: 70%;
